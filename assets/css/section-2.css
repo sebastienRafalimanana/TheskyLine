@@ -1,0 +1,462 @@
+.section-2 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  color: var(--text-color);
+  transition: background-color 0.4s ease-in-out;
+}
+.section-2 section {
+  width: 100%;
+  height: 100%;
+}
+.section-2 section div:first-child div:first-child p {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.section-2 section div:first-child div:first-child p span {
+  font-size: 25px;
+  font-weight: 700;
+}
+.section-2 section div:first-child div:first-child div {
+  padding-right: 25px;
+  max-width: 350px;
+  width: auto;
+}
+.section-2 section div:first-child div:last-child img {
+  width: 350px;
+  height: auto;
+}
+.section-2 section div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-2 section div:last-child nav ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.section-2 section div:last-child nav ul li {
+  list-style-type: none;
+  margin-right: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.section-2 section div:last-child nav ul li:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 750px) {
+  .section-2 {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    color: var(--text-color);
+    transition: background-color 0.4s ease-in-out;
+  }
+  .section-2 section {
+    width: 100%;
+    height: 100%;
+  }
+  .section-2 section div:first-child {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:first-child div:first-child p {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .section-2 section div:first-child div:first-child p span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .section-2 section div:first-child div:first-child div {
+    padding-right: 25px;
+    padding-left: 15px;
+    max-width: 350px;
+    width: auto;
+  }
+  .section-2 section div:first-child div:last-child img {
+    width: 250px;
+    height: auto;
+  }
+  .section-2 section div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 section div:last-child nav ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:last-child nav ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .section-2 section div:last-child nav ul li:last-child {
+    margin-right: 0;
+  }
+  .section-2 section div:last-child .slide img {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-2 {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    color: var(--text-color);
+    transition: background-color 0.4s ease-in-out;
+  }
+  .section-2 section {
+    width: 100%;
+    height: 100%;
+  }
+  .section-2 section div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 section div:first-child div:first-child {
+    text-align: justify;
+  }
+  .section-2 section div:first-child div:first-child p {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .section-2 section div:first-child div:first-child p span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .section-2 section div:first-child div:first-child div {
+    padding-right: 25px;
+    max-width: 350px;
+    width: auto;
+  }
+  .section-2 section div:first-child div:last-child img {
+    width: 250px;
+    height: auto;
+  }
+  .section-2 section div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 section div:last-child nav ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:last-child nav ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .section-2 section div:last-child nav ul li:last-child {
+    margin-right: 0;
+  }
+  .section-2 section div:last-child .slide img {
+    width: auto;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=section-2.css.map */
+
+
+
+
+
+
+
+
+#movie-text {
+  font-family: "Six Caps", sans-serif;
+}
+
+#incer {
+  background: url("../images/header_bg_2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-nav {
+  width: 80%;
+  height: 60px;
+  top: 0;
+  background: #FFF;
+  position: absolute;
+}
+
+#sl {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/slide_1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#ll {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/slide_2_full.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#il {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/slide_3_full.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#sousTitire {
+  font-family: "Abel";
+  color: #FFF;
+  font-size: 16px;
+}
+
+#titire {
+  font-family: "Six Caps", sans-serif;
+  color: #FFF;
+}
+
+.fixed-overlay {
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.overlay2 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 999;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.75s ease;
+}
+.overlay2 #close-2,
+.overlay2 #close-3 {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+.overlay2 #close-2 i .fas,
+.overlay2 #close-3 i .fas {
+  color:  var(--text-color);
+  width: 48px;
+  height: 48px;
+}
+.overlay2 video {
+  width: 75%;
+  height: 75%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.overlay2 video .video {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 100vh;
+  color:  var(--text-color);
+}
+.section-2 section {
+  width: 100%;
+  height: 100%;
+}
+.section-2 section div:first-child div:first-child p {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.section-2 section div:first-child div:first-child p span {
+  font-size: 25px;
+  font-weight: 700;
+}
+.section-2 section div:first-child div:first-child div {
+  padding-right: 25px;
+  max-width: 350px;
+  width: auto;
+}
+.section-2 section div:first-child div:last-child img {
+  width: 350px;
+  height: auto;
+}
+.section-2 section div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-2 section div:last-child nav ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.section-2 section div:last-child nav ul li {
+  list-style-type: none;
+  margin-right: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.section-2 section div:last-child nav ul li:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 750px) {
+  .section-2 {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    color:  var(--text-color);
+  }
+  .section-2 section {
+    width: 100%;
+    height: 100%;
+  }
+  .section-2 section div:first-child {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:first-child div:first-child p {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .section-2 section div:first-child div:first-child p span {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .section-2 section div:first-child div:first-child div {
+    padding-right: 25px;
+    padding-left: 15px;
+    max-width: 350px;
+    width: auto;
+    font-size: 16px;
+  }
+  .section-2 section div:first-child div:last-child img {
+    width: 250px;
+    height: auto;
+  }
+  .section-2 section div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 section div:last-child nav ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:last-child nav ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .section-2 section div:last-child nav ul li:last-child {
+    margin-right: 0;
+  }
+  .section-2 section div:last-child .slide img {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-2 {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    color:  var(--text-color);
+  }
+  .section-2 section {
+    width: 100%;
+    height: 100%;
+  }
+  .section-2 section div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-2 section div:first-child div:first-child {
+    text-align: justify;
+  }
+  .section-2 section div:first-child div:first-child p {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .section-2 section div:first-child div:first-child p span {
+    font-size: 2px;
+    font-weight: 700;
+  }
+  .section-2 section div:first-child div:first-child div {
+    padding-right: 25px;
+    max-width: 350px;
+    width: auto;
+  }
+  .section-2 section div:first-child div:last-child img {
+    width: 250px;
+    height: auto;
+  }
+  .section-2 section div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 section div:last-child nav ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-2 section div:last-child nav ul li {
+    list-style-type: none;
+    margin-right: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .section-2 section div:last-child nav ul li:last-child {
+    margin-right: 0;
+  }
+  .section-2 section div:last-child .slide img {
+    width: auto;
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

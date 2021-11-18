@@ -1,0 +1,40 @@
+.theme-toggler {
+    width: 40px;
+    height: 20px;
+    background-color: var(--bg-toggler);
+    border-radius: 24px;
+    color: var(--text-toggler);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.theme-toggler .icon {
+    font-size: 10px;
+}
+
+.theme-toggler .toggler {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--text-toggler);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left .4s ease;
+}
+
+.theme-toggler.active .toggler {
+    left: calc(100% - 18px);
+}
+
+#theme-container{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+}
